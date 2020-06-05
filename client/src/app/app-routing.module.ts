@@ -7,6 +7,7 @@ import { GameFormComponent } from './components/game-form/game-form.component';
 const routes: Routes = [
   { path: 'games', component: GameListComponent },
   { path: 'game/add', component: GameFormComponent },
+  { path: 'game/edit/:id', component: GameFormComponent },
   { path: '', redirectTo: '/games', pathMatch: 'full' },
 ];
 
